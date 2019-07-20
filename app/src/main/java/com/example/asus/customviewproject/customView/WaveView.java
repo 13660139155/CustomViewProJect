@@ -16,12 +16,13 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
-import com.example.asus.customviewproject.R;
-
 import androidx.annotation.Nullable;
 
+import com.example.asus.customviewproject.R;
+
+
 /**
- *波浪控件
+ * 波浪控件
  * Created by 陈健宇 at 2018/10/23
  */
 public class WaveView extends View {

@@ -8,11 +8,13 @@
         <attr name="rightText" format="string"/>
         <attr name="rightTextColor" format="reference|color"/>
         <attr name="rightTextSize" format="dimension"/>
-    </declare-styleable>   <declare-styleable name="SlidingSwitchView" >
-    <attr name="colorBackground" format="reference|color"/>
-    <attr name="colorForeground" format="color|reference"/>
-</declare-styleable>
+    </declare-styleable>
 
-
+    <declare-styleable name="SwitchButton" >
+        <attr name="sb_openBackground" format="color"/>
+        <attr name="sb_closeBackground" format="color"/>
+        <attr name="sb_circleColor" format="color"/>
+        <attr name="sb_circleRadius" format="dimension"/>
+    </declare-styleable>
 
 </resources>
