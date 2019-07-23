@@ -10,15 +10,5 @@
         <attr name="rightTextSize" format="dimension"/>
     </declare-styleable>
 
-    <declare-styleable name="SwitchButton" >
-        <attr name="sb_openBackground" format="color"/>
-        <attr name="sb_closeBackground" format="color"/>
-        <attr name="sb_circleColor" format="color"/>
-        <attr name="sb_circleRadius" format="dimension"/>
-        <attr name="sb_status">
-            <enum name="close" value="0"/>
-            <enum name="open" value="1"/>
-        </attr>
-    </declare-styleable>
 
 </resources>
