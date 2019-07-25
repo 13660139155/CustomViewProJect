@@ -7,5 +7,15 @@
     tools:context=".view.MainActivity">
 
 
+    <com.example.asus.customviewproject.customView.WaveTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        app:amplitude="60"
+        app:color="@android:color/black"
+        app:size="26sp"
+        app:text="WaveTextView" />
+
 
 </RelativeLayout>
