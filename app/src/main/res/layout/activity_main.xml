@@ -4,18 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MainActivity">
+    tools:context=".MainActivity">
 
 
-    <com.example.asus.customviewproject.customView.WaveTextView
+    <com.google.android.material.chip.ChipGroup
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:layout_centerInParent="true"
-        app:amplitude="60"
-        app:color="@android:color/black"
-        app:size="26sp"
-        app:text="WaveTextView" />
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_wave_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="波浪文本"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_flow_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动换行的ViewGroup"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_svg_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手写SVG图片"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拖动的红点"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_pull_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可下拉的文本控件"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_stick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详情页"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_scroll_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仿ViewPager控件"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
+    </com.google.android.material.chip.ChipGroup>
 
 
 </RelativeLayout>

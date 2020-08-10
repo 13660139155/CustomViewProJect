@@ -1,4 +1,4 @@
-package com.example.asus.customviewproject.customView;
+package com.example.asus.customviewproject.customview;
 
 
 import android.animation.ValueAnimator;
@@ -9,8 +9,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
-import android.graphics.RectF;
-import android.graphics.Typeface;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -20,8 +18,6 @@ import android.view.animation.LinearInterpolator;
 import androidx.annotation.Nullable;
 
 import com.example.asus.customviewproject.R;
-
-import java.util.logging.Handler;
 
 
 /**

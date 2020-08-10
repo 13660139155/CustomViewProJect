@@ -1,4 +1,4 @@
-package com.example.hy.svgtest;
+package com.example.asus.customviewproject.customview;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -15,6 +15,8 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
+
+import com.example.asus.customviewproject.R;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -188,7 +190,7 @@ public class LauncherBgView extends View {
                 Element pathNode = (Element) pathNodeList.item(i);
 
                 //获取<pathData>结点属性
-                Path pathData = PathParser.createPathFromPathData(pathNode.getAttribute(PATH_DATA));
+                Path pathData = com.example.hy.svgtest.PathParser.createPathFromPathData(pathNode.getAttribute(PATH_DATA));
                 int fillColor, stokeColor;
                 float stokeWidth;
                 try {

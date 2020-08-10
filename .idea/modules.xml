@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomViewProJect.iml" filepath="$PROJECT_DIR$/CustomViewProJect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CustomViewProJect-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CustomViewProJect-app.iml" group="CustomViewProJect/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-CustomViewProJect.iml" filepath="$PROJECT_DIR$/.idea/modules/android-CustomViewProJect.iml" group="CustomViewProJect" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

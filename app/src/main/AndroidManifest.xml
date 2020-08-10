@@ -11,10 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".view.StickNavActivity">
-
-        </activity>
-        <activity android:name=".view.MainActivity">
+        <activity android:name=".view.HorizontalScrollActivity"></activity>
+        <activity android:name=".view.PullTextActivity" />
+        <activity android:name=".view.RedPointActivity" />
+        <activity android:name=".view.SVGActivity" />
+        <activity android:name=".view.FlowActivity" />
+        <activity android:name=".view.WaveTextActivity" />
+        <activity android:name=".view.StickNavActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

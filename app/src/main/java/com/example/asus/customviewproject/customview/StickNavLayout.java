@@ -1,4 +1,4 @@
-package com.example.asus.customviewproject.customView;
+package com.example.asus.customviewproject.customview;
 
 import android.content.Context;
 import androidx.annotation.Nullable;

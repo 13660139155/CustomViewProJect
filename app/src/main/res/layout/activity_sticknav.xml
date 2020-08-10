@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".view.StickNavActivity">
 
-   <com.example.asus.customviewproject.customView.StickNavLayout
+   <com.example.asus.customviewproject.customview.StickNavLayout
        android:id="@+id/stick_nav_layout"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
@@ -45,6 +45,6 @@
 
        </androidx.viewpager.widget.ViewPager>
        
-   </com.example.asus.customviewproject.customView.StickNavLayout>
+   </com.example.asus.customviewproject.customview.StickNavLayout>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.example.asus.customviewproject.customView;
+package com.example.asus.customviewproject.customview;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;

@@ -16,11 +16,12 @@ package com.example.hy.svgtest;
  * limitations under the License.
  */
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
 
 import android.graphics.Path;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
+
+import androidx.annotation.RestrictTo;
 
 import java.util.ArrayList;
 

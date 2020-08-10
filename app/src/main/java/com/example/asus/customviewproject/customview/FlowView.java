@@ -1,7 +1,6 @@
-package com.example.asus.customviewproject.customView;
+package com.example.asus.customviewproject.customview;
 
 import android.content.Context;
-import android.text.Layout;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
