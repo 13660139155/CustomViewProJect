@@ -9,6 +9,7 @@ import android.view.View;
 import com.example.asus.customviewproject.customview.HorizontalScrollView;
 import com.example.asus.customviewproject.customview.PullTextView;
 import com.example.asus.customviewproject.customview.RedPointView;
+import com.example.asus.customviewproject.view.DragActivity;
 import com.example.asus.customviewproject.view.FlowActivity;
 import com.example.asus.customviewproject.view.HorizontalScrollActivity;
 import com.example.asus.customviewproject.view.PullTextActivity;
@@ -71,6 +72,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, HorizontalScrollActivity.class));
+            }
+        });
+
+        findViewById(R.id.cp_drag_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, DragActivity.class));
             }
         });
     }

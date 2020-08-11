@@ -60,6 +60,13 @@
             android:text="仿ViewPager控件"
             style="@style/Widget.MaterialComponents.ChipGroup"/>
 
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_drag_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可拖动关闭的控件"
+            style="@style/Widget.MaterialComponents.ChipGroup"/>
+
     </com.google.android.material.chip.ChipGroup>
 
 

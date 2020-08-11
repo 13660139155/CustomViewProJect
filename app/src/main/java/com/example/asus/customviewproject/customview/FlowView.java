@@ -6,8 +6,6 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.asus.customviewproject.MyConstant;
-
 
 /**
  * 自适应的热门标签布局
@@ -15,7 +13,7 @@ import com.example.asus.customviewproject.MyConstant;
  */
 public class FlowView extends ViewGroup {
 
-    private final String TAG = MyConstant.FV_TAG;
+    private final String TAG = FlowView.class.getSimpleName();
 
     public FlowView(Context context) {
         super(context);

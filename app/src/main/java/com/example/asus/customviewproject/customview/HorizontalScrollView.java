@@ -9,8 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Scroller;
 
-import com.example.asus.customviewproject.MyConstant;
-
 
 /**
  * 类似于ViewPager，实现水平滑动，解决嵌套滑动（左右滑动与上下滑动冲突）
@@ -18,7 +16,7 @@ import com.example.asus.customviewproject.MyConstant;
  */
 public class HorizontalScrollView extends ViewGroup {
 
-    private final String TAG = MyConstant.HSV_TAG;
+    private final String TAG = HorizontalScrollView.class.getSimpleName();
 
     private int mChildrenSize;
     private int mChildWidth;

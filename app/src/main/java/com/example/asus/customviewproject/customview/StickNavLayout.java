@@ -15,7 +15,6 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.OverScroller;
 
-import com.example.asus.customviewproject.MyConstant;
 import com.example.asus.customviewproject.R;
 import com.example.asus.customviewproject.view.ViewPagerFragment;
 
@@ -26,7 +25,7 @@ import com.example.asus.customviewproject.view.ViewPagerFragment;
  */
 public class StickNavLayout extends LinearLayout {
 
-    private String TAG = MyConstant.SL_TAG;
+    private static final String TAG = StickNavLayout.class.getSimpleName();
     private View mTopView;
     private View mTabView;
     private ViewPager mViewPager;
